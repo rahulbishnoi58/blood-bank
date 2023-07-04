@@ -9,4 +9,4 @@ const connectDB = async() => {
         console.log(`Mongodb error ${error}`.bgRed.white);
     }
 }
- module.exports = connectDB; 
+module.exports = connectDB; 
